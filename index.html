@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DryMiFrut — Una opción saludable | Liceo Tame</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="DryMiFrut: prototipo de deshidratador de frutas y miel para la comunidad liceísta (Liceo Tame)." />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"><img src="logo.jpg" alt="Logo DryMiFrut"></div>
+        <div>
+          <div style="font-size:15px">DryMiFrut</div>
+          <div class="small">Deshidratador de frutas y miel — Liceo Tame</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#metodologia">Metodología</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#metodologia">Ver metodología</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="inicio" class="hero">
+      <div class="hero-card">
+        <h1>DryMiFrut: una opción saludable para la comunidad liceísta</h1>
+        <p class="lead">Prototipo de deshidratador de frutas y miel creado por estudiantes del Liceo Tame (Tame - Arauca). Busca promover snacks saludables, reducir desperdicio y ofrecer una alternativa al azúcar con miel deshidratada en polvo.</p>
+        <div class="stats">
+          <div class="stat"><span class="small">Frutas</span><b>Mango, Fresa, Manzana</b></div>
+          <div class="stat"><span class="small">Control</span><b>Temperatura / Humedad</b></div>
+          <div class="stat"><span class="small">Microcontrolador</span><b>ESP32</b></div>
+        </div>
+
+        <div style="margin-top:18px" class="small muted">Resumen: El proyecto diseña, construye y valida un deshidratador funcional, integrando sensores y control automático para producir snacks de fruta deshidratada y miel en polvo como sustituto del azúcar.</div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <div class="img-hero">Imagen: frutas deshidratadas</div>
+          <h3 style="margin-top:12px">Impacto esperado</h3>
+          <p class="small muted">Disminuir desperdicio, fomentar hábitos saludables, ofrecer producto replicable y de bajo costo para otras instituciones.</p>
+          <div style="margin-top:10px">
+            <a class="pill" href="#resultados">Ver resultados</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="objetivos">
+      <div class="card">
+        <h2>Objetivos</h2>
+        <p class="small muted">Objetivo general y específicos extraídos y resumidos del proyecto.</p>
+        <div style="margin-top:12px" class="two-col">
+          <div>
+            <h3>Objetivo general</h3>
+            <p>Diseñar un prototipo de deshidratador funcional que promueva hábitos alimenticios saludables a base de frutas para la comunidad liceísta.</p>
+
+            <h3>Objetivos específicos</h3>
+            <ul class="clean">
+              <li>Implementar el deshidratador para conservar nutrientes de las frutas.</li>
+              <li>Producir snacks de frutas deshidratadas como hábito saludable.</li>
+              <li>Comercializar los productos y promover la miel deshidratada como alternativa al azúcar.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Justificación (resumen)</h3>
+            <p class="small muted">Las frutas frescas se desperdician y muchos estudiantes consumen alimentos altamente procesados. DryMiFrut propone una solución técnica y social: conservar frutas, reducir desperdicio y mejorar la dieta estudiantil mediante tecnología de bajo costo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="marco" class="card">
+      <h2>Marco teórico (resumen)</h2>
+      <div class="grid-3" style="margin-top:10px">
+        <div>
+          <h4>¿Qué es un deshidratador?</h4>
+          <p class="small muted">Dispositivo que elimina humedad de los alimentos para preservarlos, evitando proliferación microbiana y alargando vida útil.</p>
+        </div>
+        <div>
+          <h4>Tipos</h4>
+          <p class="small muted">Solar, eléctrico, convectivo, liofilización y microondas con vacío. Cada uno tiene ventajas técnicas y costos distintos.</p>
+        </div>
+        <div>
+          <h4>Productos</h4>
+          <p class="small muted">Frutas (mango, fresa, manzana), vegetales, hierbas y miel en polvo.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <h4>Marco jurídico (breve)</h4>
+        <p class="small muted">El proyecto considera normas colombianas sobre alimentos: registro sanitario, buenas prácticas de manufactura (Decreto 1500/2007), resolución 2674/2013 y normas ICONTEC aplicables a productos deshidratados y miel.</p>
+      </div>
+    </section>
+
+    <section id="metodologia">
+      <div class="card">
+        <h2>Metodología</h2>
+        <p class="small muted">Enfoque mixto: fases cuantitativa (encuestas) y cualitativa (entrevistas). Población: estudiantes y docentes del Liceo Tame; la muestra incluyó grado 11 y personal docente.</p>
+
+        <div style="margin-top:12px" class="two-col">
+          <div>
+            <h3>Instrumentos</h3>
+            <ul class="clean">
+              <li>Encuestas estructuradas con escalas Likert (medir conocimiento y aceptación).</li>
+              <li>Entrevistas semiestructuradas a docentes técnicos.</li>
+              <li>Registro de pruebas técnicas del prototipo.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ética</h3>
+            <p class="small muted">Consentimiento informado, confidencialidad de datos, minimización de riesgos y aval institucional del Liceo Tame.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="resultados">
+      <div class="card">
+        <h2>Resultados</h2>
+        <p class="small muted">Resultados condensados: el prototipo fue viable, se redujo desperdicio, hubo aceptación entre estudiantes y docentes y se comprobó el control eficiente de temperatura y humedad mediante ESP32 y sensores.</p>
+
+        <div style="margin-top:12px" class="grid-3">
+          <div>
+            <h4>Viabilidad técnica</h4>
+            <p class="small muted">Prototipo funcional con control automático (ESP32, termocupla K, relé, ventilación) y bandejas seguras.</p>
+          </div>
+          <div>
+            <h4>Impacto social</h4>
+            <p class="small muted">Mejora en la disponibilidad de snacks saludables y aumento en la percepción de alimentación sana.</p>
+          </div>
+          <div>
+            <h4>Comercialización</h4>
+            <p class="small muted">Propuesta de empaques para miel deshidratada en polvo y venta dentro de la comunidad liceísta.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="conclusiones" class="card">
+      <h2>Conclusiones y recomendaciones</h2>
+      <ul class="clean">
+        <li>DryMiFrut es una solución replicable y de bajo costo para conservar frutas y fomentar hábitos saludables.</li>
+        <li>Se recomienda usar materiales resistentes (acero inoxidable o malla galvanizada), controlar temperatura y humedad con microcontrolador (ESP32) y buena ventilación.</li>
+        <li>Se sugiere una etapa piloto de comercialización interna y evaluación del etiquetado y registro sanitario.</li>
+      </ul>
+    </section>
+
+    <section id="equipo">
+      <div class="card">
+        <h2>Equipo de trabajo</h2>
+        <div class="team" style="margin-top:12px">
+          <div class="member"><h4>Simón Giovanni Tibasosa Páez</h4><p>Estudiante — Autor</p></div>
+          <div class="member"><h4>William Roberto Pinzón Rey</h4><p>Estudiante — Autor</p></div>
+          <div class="member"><h4>Josh Alexander Guerrero Rodríguez</h4><p>Estudiante — Autor</p></div>
+          <div class="member"><h4>Andrés Felipe Álvarez Lozano</h4><p>Estudiante — Autor</p></div>
+          <div class="member"><h4>Natalia Álvarez Lozano</h4><p>Estudiante — Autora</p></div>
+          <div class="member"><h4>Luis Felipe Dueñas Martínez</h4><p>Estudiante — Autor</p></div>
+          <div class="member"><h4>Luna Santoval López</h4><p>Estudiante — Autora</p></div>
+          <div class="member"><h4>Directora: Karol Juliana González Sarmiento</h4><p>Directora del trabajo de grado</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+ <table>
+    <thead>
+      <tr>
+        <th>Detalle</th>
+        <th>Cant.</th>
+        <th>Costo</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Tarjeta ESP32</td><td>1</td><td>38.570</td><td>38.570</td></tr>
+      <tr><td>Termocupla tipo K</td><td>1</td><td>22.000</td><td>22.000</td></tr>
+      <tr><td>Relé estado sólido</td><td>1</td><td>22.000</td><td>22.000</td></tr>
+      <tr><td>Módulo reloj RTC</td><td>1</td><td>21.284</td><td>21.284</td></tr>
+      <tr><td>Cubierta / estructura</td><td>1</td><td>200.000</td><td>200.000</td></tr>
+      <tr><td>Pulsadores DC</td><td>5</td><td>3.600</td><td>18.000</td></tr>
+      <tr><td>Switch sencillo</td><td>3</td><td>4.350</td><td>13.050</td></tr>
+      <tr><td>Pantalla LCD 16x2</td><td>1</td><td>24.090</td><td>24.090</td></tr>
+      <tr><td>Leds indicadores</td><td>5</td><td>12.000</td><td>60.000</td></tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">TOTAL</td>
+        <td>$418.994</td>
+      </tr>
+    </tfoot>
+  </table>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>
+        <div><strong>DryMiFrut</strong> — Proyecto de grado, Liceo Tame (2025)</div>
+        <div class="small muted">Hecho por estudiantes del Liceo Tame.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const id=a.getAttribute('href').slice(1);
+        const el=document.getElementById(id);
+        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+      })
+    })
+
+    // Mobile nav fallback: simple toggle (shows nav on small screens)
+    const nav = document.querySelector('nav ul');
+    if(screen.width<=900){
+      const btn=document.createElement('button');
+      btn.textContent='☰';
+      btn.style.padding='8px';btn.style.border='0';btn.style.background='transparent';btn.style.fontSize='18px';
+      btn.addEventListener('click',()=>{nav.style.display = nav.style.display==='flex'?'none':'flex';nav.style.flexDirection='column';nav.style.padding='10px'});
+      document.querySelector('.nav').insertBefore(btn, document.querySelector('.cta'));
+    }
+  </script>
+</body>
+</html>
